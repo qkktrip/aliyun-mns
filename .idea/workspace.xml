@@ -2,111 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cb85666c-fe63-4485-bd32-783c4a9436d8" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Common/XMLParser.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Core/AbstractAPI.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Core/AsyncCallback.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Core/Client.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Core/Config.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Core/Constants.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Core/Exceptions/RuntimeException.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Core/Queue.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Core/Topic.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Exception/BatchDeleteFailException.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Exception/BatchSendFailException.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Exception/InvalidArgumentException.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Exception/MalformedXMLException.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Exception/MessageNotExistException.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Exception/MnsException.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Exception/QueueAlreadyExistException.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Exception/QueueNotExistException.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Exception/ReceiptHandleErrorException.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Exception/SubscriptionAlreadyExistException.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Exception/SubscriptionNotExistException.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Exception/TopicAlreadyExistException.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Exception/TopicNotExistException.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Foundation/Config.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Foundation/ServiceProviders/SmsServiceProvider.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Http/HttpClient.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Model/AccountAttributes.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Model/BatchSmsAttributes.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Model/DeleteMessageErrorItem.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Model/MailAttributes.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Model/Message.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Model/MessageAttributes.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Model/QueueAttributes.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Model/SendMessageRequestItem.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Model/SendMessageResponseItem.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Model/SmsAttributes.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Model/SubscriptionAttributes.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Model/TopicAttributes.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Model/UpdateSubscriptionAttributes.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Model/WebSocketAttributes.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Requests/BaseRequest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Requests/BatchDeleteMessageRequest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Requests/BatchPeekMessageRequest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Requests/BatchReceiveMessageRequest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Requests/BatchSendMessageRequest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Requests/ChangeMessageVisibilityRequest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Requests/CreateQueueRequest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Requests/CreateTopicRequest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Requests/DeleteMessageRequest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Requests/DeleteQueueRequest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Requests/DeleteTopicRequest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Requests/GetAccountAttributesRequest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Requests/GetQueueAttributeRequest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Requests/GetSubscriptionAttributeRequest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Requests/GetTopicAttributeRequest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Requests/ListQueueRequest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Requests/ListSubscriptionRequest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Requests/ListTopicRequest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Requests/PeekMessageRequest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Requests/PublishMessageRequest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Requests/ReceiveMessageRequest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Requests/SendMessageRequest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Requests/SetAccountAttributesRequest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Requests/SetQueueAttributeRequest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Requests/SetSubscriptionAttributeRequest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Requests/SetTopicAttributeRequest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Requests/SubscribeRequest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Requests/UnsubscribeRequest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Responses/BaseResponse.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Responses/BatchDeleteMessageResponse.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Responses/BatchPeekMessageResponse.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Responses/BatchReceiveMessageResponse.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Responses/BatchSendMessageResponse.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Responses/ChangeMessageVisibilityResponse.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Responses/CreateQueueResponse.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Responses/CreateTopicResponse.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Responses/DeleteMessageResponse.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Responses/DeleteQueueResponse.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Responses/DeleteTopicResponse.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Responses/GetAccountAttributesResponse.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Responses/GetQueueAttributeResponse.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Responses/GetSubscriptionAttributeResponse.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Responses/GetTopicAttributeResponse.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Responses/ListQueueResponse.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Responses/ListSubscriptionResponse.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Responses/ListTopicResponse.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Responses/MnsPromise.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Responses/PeekMessageResponse.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Responses/PublishMessageResponse.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Responses/ReceiveMessageResponse.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Responses/SendMessageResponse.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Responses/SetAccountAttributesResponse.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Responses/SetQueueAttributeResponse.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Responses/SetSubscriptionAttributeResponse.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Responses/SetTopicAttributeResponse.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Responses/SubscribeResponse.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Responses/UnsubscribeResponse.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Signature/Signature.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Support/Arr.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Support/Collection.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Traits/MessageIdAndMD5.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Traits/MessagePropertiesForPeek.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Traits/MessagePropertiesForPublish.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Traits/MessagePropertiesForReceive.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Traits/MessagePropertiesForSend.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -117,7 +14,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="TestSms.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="TestSms.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tests/TestSms.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="527">
@@ -134,6 +31,16 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="154">
               <caret line="16" column="34" lean-forward="true" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" column="6" lean-forward="false" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -181,6 +88,7 @@
         <option value="$PROJECT_DIR$/src/Core/Client.php" />
         <option value="$PROJECT_DIR$/src/Core/Queue.php" />
         <option value="$PROJECT_DIR$/tests/TestSms.php" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -281,12 +189,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1512121200477</updated>
-      <workItem from="1512354250023" duration="6482000" />
+      <workItem from="1512354250023" duration="6728000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6482000" />
+    <option name="totallyTimeSpent" value="6728000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -633,6 +541,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/tests/TestSms.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="31" column="67" lean-forward="false" selection-start-line="31" selection-start-column="67" selection-end-line="31" selection-end-column="67" />
+          <folding>
+            <element signature="e#25#71#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/composer.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
@@ -641,13 +559,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/TestSms.php">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="31" column="67" lean-forward="false" selection-start-line="31" selection-start-column="67" selection-end-line="31" selection-end-column="67" />
-          <folding>
-            <element signature="e#25#71#0#PHP" expanded="true" />
-          </folding>
+        <state relative-caret-position="17">
+          <caret line="1" column="6" lean-forward="false" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
+          <folding />
         </state>
       </provider>
     </entry>
